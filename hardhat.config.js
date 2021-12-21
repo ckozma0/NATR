@@ -22,7 +22,7 @@ task("accounts", "Prints the list of accounts", async () => {
 module.exports = {
   defaultNetwork: "mainnet",
   networks: {
-  	localhost: {
+    localhost: {
       url: "http://127.0.0.1:8545"
     },
     hardhat: {
@@ -41,7 +41,7 @@ module.exports = {
     }
   },
   solidity: {
-  version: "0.8.11",
+  version: "0.5.16",
   settings: {
     optimizer: {
       enabled: true
