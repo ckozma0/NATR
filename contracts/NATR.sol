@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.2;
+pragma solidity ^0.8.11;
 
-import "@openzeppelin/contracts-upgradeable@4.4.0/token/ERC20/ERC20Upgradeable.sol";
-import "@openzeppelin/contracts-upgradeable@4.4.0/proxy/utils/Initializable.sol";
+import "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol";
+import "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
 
 contract NATR is Initializable, ERC20Upgradeable {
     /// @custom:oz-upgrades-unsafe-allow constructor
